@@ -1,6 +1,7 @@
 # EX.5-IMPLEMENTATION-OF-CPU-SCHEDULING-ALGORITHMS
-## First-Come-First-Serve (FCFS) Scheduling
-## AIM: To implement First-Come-First-Serve (FCFS) Scheduling
+First-Come-First-Serve (FCFS) Scheduling
+## AIM:
+To implement First-Come-First-Serve (FCFS) Scheduling
 ## ALGORITHM:
 ```
 Start with a queue (or a list) to represent the ready queue of processes.
@@ -64,10 +65,13 @@ printf("\n Average waiting time is %5.2f\n average tat is%5.2f",awt,atat); }
 ![image](https://github.com/R-Guruprasad/EX.5-IMPLEMENTATION-OF-CPU-SCHEDULING-ALGORITHMS/assets/119390308/3ea74df2-1441-4c29-a46b-787f7c0586b3)
 
 
-## RESULT: First-Come-First-Serve Scheduling is implemented successfully.
+## RESULT: 
+First-Come-First-Serve Scheduling is implemented successfully.
+
 Shortest Job First (SJF) Preemptive Scheduling
-## AIM: To implement Shortest Job First (SJF) Preemptive Scheduling
-ALGORITHM:
+## AIM: 
+To implement Shortest Job First (SJF) Preemptive Scheduling
+## ALGORITHM:
 ```
 Initialize variables and arrays to store process information, such as process ID (p), arrival time (at), burst time (bt), start time (st), finish time (ft), waiting time (wt), turnaround time (tt), response ratio (rr), and a flag to mark completed processes (iscompleted).
 
@@ -154,7 +158,8 @@ printf("\nAverage turn around time is %5.2f",att);
 ## RESULT: 
 Shortest Job First (SJF) preemptive scheduling is implemented successfully.
 ## Round Robin (RR) Scheduling
-## AIM: To implement Round Robin (RR) Scheduling
+## AIM:
+To implement Round Robin (RR) Scheduling
 ## PROGRAM:
 ```
 #include<stdio.h>
@@ -277,9 +282,11 @@ printf("\nAvg turn around time is %5.2f",atat);
 ## OUTPUT:
 ![image](https://github.com/R-Guruprasad/EX.5-IMPLEMENTATION-OF-CPU-SCHEDULING-ALGORITHMS/assets/119390308/76a4fd2c-c241-4aa2-a613-35eb3e9f38fe)
 
-## RESULT: Round Robin (RR) Scheduling is implemented successfully.
+## RESULT: 
+Round Robin (RR) Scheduling is implemented successfully.
 ### Priority Preemptive Scheduling
-## AIM: To implement Priority Preemptive Scheduling
+## AIM: 
+To implement Priority Preemptive Scheduling
 ## PROGRAM:
 ```
 #include<stdio.h>
@@ -361,4 +368,5 @@ printf("The average turn around time is: %5.2f",atat);
 ## OUTPUT:
 ![image](https://github.com/R-Guruprasad/EX.5-IMPLEMENTATION-OF-CPU-SCHEDULING-ALGORITHMS/assets/119390308/76a4fd2c-c241-4aa2-a613-35eb3e9f38fe)
 
-## RESULT: Priority Non-preemptive scheduling is implemented successfully.
+## RESULT:
+Priority Non-preemptive scheduling is implemented successfully.
